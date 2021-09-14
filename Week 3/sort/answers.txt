@@ -1,0 +1,16 @@
+sort1 uses: bubble sort
+
+How do you know?: In all three instances (random, reversed, and sorted) this program took the longest to complete. In both the best and worst case
+scenarios, selection sort will take the longest to complete because it is O(n^2) and Omega(n^2). While bubble sort has the same worst case
+scenario calculation, it can do better in the best case scenario.
+
+sort2 uses: merge sort
+
+How do you know?: In all three instances this was the fastest program to complete. In both the best and worst case scenarios this program's speed is
+caluclated as n log n which is faster than both bubble and selection sort.
+- bubble
+
+sort3 uses: selection sort
+
+How do you know?: In all three instances this program was faster than sort1 and slower than sort2. Because bubble sort can be faster than selection
+sort in the best case scenario, but is always slower than merge sort, sort3 is bubble sort.

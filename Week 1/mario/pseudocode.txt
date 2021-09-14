@@ -1,0 +1,15 @@
+#Prompt user for height of pyramid
+#Check if height is greater than 0 and less than 8
+If height is less than 0, prompt user again for input.
+If height is greater than 8 prompt user again for input.
+Store user input to variable
+
+Make a variable row# which is equal to zero.
+Make a variable dots# which is equal to user input -1.
+
+While row# is less than or equal to user input:
+Print dots# dots and row# + 1 hashes and a line break.
+Increment dots --
+Increment rows ++
+Stop when row# is equal to user input.
+
